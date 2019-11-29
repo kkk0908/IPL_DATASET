@@ -1,0 +1,37 @@
+{
+  "name": "iplproject1",
+  "version": "1.0.0",
+  "description": "In this data assignment you will transform raw data of IPL to calculate the following stats: 1. Number of matches played per year for all the years in IPL. 2. Number of matches won of per team per year in IPL. 3. Extra runs conceded per team in 2016 4. Top 10 economical bowlers in 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "author": "satish kumar",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "chart.js": "^2.8.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "http-server": "^0.11.1",
+    "jest": "^24.9.0",
+    "npm": "^6.11.3",
+    "pg": "^7.12.1",
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/mountblue/cohort-10-js-4.16-4.17/ipl-data-project-1-satish.git"
+  },
+  "keywords": []
+}
